@@ -12,6 +12,12 @@ Download **LuqtaDesktop-win-x64-Setup.exe** from [the latest release](https://gi
 
 التحديث العادي يُنزّل في الخلفية ويُطبّق بعد الخروج الآمن. التحديث الكبير يعرض تنزيل الآن، ونسبة التنزيل الفعلية، ثم تحديث لإعادة التشغيل بأمان. تبقى الجلسة والإعدادات والصور المعلقة في مجلد بيانات منفصل.
 
-Update metadata is authenticated with RSA-PSS/SHA-256, and packages are verified before application. This is separate from Windows Authenticode; check the release notes for installer publisher-signing status. Never disable Windows security for installation.
+## WhatsApp
+
+يدعم Luqta ربط حساب WhatsApp عبر QR وإرسال اللقطات مباشرة إلى محادثة أو مجموعة تختارها. افتح «إعدادات الإرسال»، اختر WhatsApp، واربط الحساب ثم احفظ وجهة الإرسال. تبقى طريقة الإرسال السابقة متاحة.
+
+**Alt + C** يلتقط الشاشة فقط، و**Alt + S** يرسل آخر لقطة جاهزة. تُحفظ جلسة الحساب محليًا بشكل محمي، ولا يحتاج الإرسال فتح متصفح أو نافذة WhatsApp.
+
+Update metadata is authenticated with RSA-PSS/SHA-256, and packages are verified before application. A trusted Windows Authenticode publisher certificate is not currently available. Never disable Windows security for installation.
 
 GitHub's automatic source archives contain only this release README, not the private application source. Download the installer asset to use Luqta.
